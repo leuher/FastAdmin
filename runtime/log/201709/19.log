@@ -7340,3 +7340,2157 @@
 [ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpStudy\WWW\fastadmin4\application\admin\controller\Ajax.php ]
 [ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:29:31+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin
+[ info ] www.fastadmin4.com/Admin [运行时间：0.121007s][吞吐率：8.26req/s] [内存消耗：462.01kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:29:34+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/login?url=/Admin
+[ info ] www.fastadmin4.com/admin/index/login?url=/Admin [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：517.55kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.fastadmin4.com/Admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/Admin',
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:29:34+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1505831374
+[ info ] www.fastadmin4.com/admin/ajax/lang?callback=define&controllername=index&v=1505831374 [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：469.29kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.fastadmin4.com/admin/index/login?url=/Admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1505831374',
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:29:43+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/login?url=/Admin
+[ info ] www.fastadmin4.com/admin/index/login?url=/Admin [运行时间：0.058003s][吞吐率：17.24req/s] [内存消耗：640.60kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'content-length' => '88',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.fastadmin4.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.fastadmin4.com/admin/index/login?url=/Admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/Admin',
+  '__token__' => 'ca0ff425d9730461ef02cb31b018f139',
+  'username' => 'admin',
+  'password' => 'fastadmin',
+  'keeplogin' => '1',
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'fastadmin4'[D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2017-09-19T22:29:49+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/login?url=/Admin
+[ info ] www.fastadmin4.com/admin/index/login?url=/Admin [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：619.12kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'content-length' => '85',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.fastadmin4.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.fastadmin4.com/admin/index/login?url=/Admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/Admin',
+  '__token__' => 'ca0ff425d9730461ef02cb31b018f139',
+  'username' => 'admin',
+  'password' => 'myfast',
+  'keeplogin' => '1',
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'fastadmin4'[D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2017-09-19T22:29:56+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/login?url=/Admin
+[ info ] www.fastadmin4.com/admin/index/login?url=/Admin [运行时间：0.020600s][吞吐率：48.54req/s] [内存消耗：617.21kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'content-length' => '88',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.fastadmin4.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.fastadmin4.com/admin/index/login?url=/Admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/Admin',
+  '__token__' => 'ca0ff425d9730461ef02cb31b018f139',
+  'username' => 'admin',
+  'password' => 'fastadmin',
+  'keeplogin' => '1',
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'fastadmin4'[D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2017-09-19T22:29:58+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/backend.css.map
+[ info ] www.fastadmin4.com/assets/css/backend.css.map [运行时间：0.013001s][吞吐率：76.92req/s] [内存消耗：290.63kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:29:58+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/bootstrap.min.css.map
+[ info ] www.fastadmin4.com/assets/css/bootstrap.min.css.map [运行时间：0.013001s][吞吐率：76.92req/s] [内存消耗：289.39kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:29:58+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/skins/skin-green.css.map
+[ info ] www.fastadmin4.com/assets/css/skins/skin-green.css.map [运行时间：0.012001s][吞吐率：83.33req/s] [内存消耗：311.03kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+NIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:30:03+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/login?url=/Admin
+[ info ] www.fastadmin4.com/admin/index/login?url=/Admin [运行时间：0.021002s][吞吐率：47.61req/s] [内存消耗：617.67kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002001s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'content-length' => '88',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.fastadmin4.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.fastadmin4.com/admin/index/login?url=/Admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/Admin',
+  '__token__' => 'ca0ff425d9730461ef02cb31b018f139',
+  'username' => 'admin',
+  'password' => 'fastadmin',
+  'keeplogin' => '1',
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'fastadmin4'[D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2017-09-19T22:31:46+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/login?url=/Admin
+[ info ] www.fastadmin4.com/admin/index/login?url=/Admin [运行时间：0.042003s][吞吐率：23.81req/s] [内存消耗：647.38kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'content-length' => '88',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.fastadmin4.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.fastadmin4.com/admin/index/login?url=/Admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/Admin',
+  '__token__' => 'ca0ff425d9730461ef02cb31b018f139',
+  'username' => 'admin',
+  'password' => 'fastadmin',
+  'keeplogin' => '1',
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.017001s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fastadmin;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"url\":\"\\/Admin\",\"__token__\":\"ca0ff425d9730461ef02cb31b018f139\",\"username\":\"admin\",\"keeplogin\":\"1\"}' , '/admin/index/login?url=/Admin' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36' , '127.0.0.1' , 1505831506) [ RunTime:0.003001s ]
+---------------------------------------------------------------
+[ 2017-09-19T22:31:57+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/login?url=/Admin
+[ info ] www.fastadmin4.com/admin/index/login?url=/Admin [运行时间：0.056004s][吞吐率：17.86req/s] [内存消耗：703.86kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'content-length' => '85',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.fastadmin4.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.fastadmin4.com/admin/index/login?url=/Admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/Admin',
+  '__token__' => '79e4c3fbfdbb508eeaaab0182e8019c8',
+  'username' => 'admin',
+  'password' => 'myfast',
+  'keeplogin' => '1',
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.006000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=fastadmin;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `logintime`=1505831517,`token`='d49057b6-8ec2-4995-8bae-40db096ddbae',`updatetime`=1505831517  WHERE  `id` = 1 [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/Admin\",\"__token__\":\"79e4c3fbfdbb508eeaaab0182e8019c8\",\"username\":\"admin\",\"keeplogin\":\"1\"}' , '/admin/index/login?url=/Admin' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36' , '127.0.0.1' , 1505831517) [ RunTime:0.004000s ]
+---------------------------------------------------------------
+[ 2017-09-19T22:31:57+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin
+[ info ] www.fastadmin4.com/Admin [运行时间：0.093005s][吞吐率：10.75req/s] [内存消耗：1,053.95kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.fastadmin4.com/admin/index/login?url=/Admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fastadmin;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-09-19T22:31:57+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/backend.css.map
+[ info ] www.fastadmin4.com/assets/css/backend.css.map [运行时间：0.012001s][吞吐率：83.33req/s] [内存消耗：287.59kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:31:57+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/bootstrap.min.css.map
+[ info ] www.fastadmin4.com/assets/css/bootstrap.min.css.map [运行时间：0.013001s][吞吐率：76.92req/s] [内存消耗：287.63kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:31:57+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/fastadmin.min.css.map
+[ info ] www.fastadmin4.com/assets/css/fastadmin.min.css.map [运行时间：0.013001s][吞吐率：76.92req/s] [内存消耗：287.63kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:31:57+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/skins/skin-green.css.map
+[ info ] www.fastadmin4.com/assets/css/skins/skin-green.css.map [运行时间：0.015001s][吞吐率：66.66req/s] [内存消耗：287.56kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:31:58+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1505831517
+[ info ] www.fastadmin4.com/admin/ajax/lang?callback=define&controllername=index&v=1505831517 [运行时间：0.012001s][吞吐率：83.33req/s] [内存消耗：502.33kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.fastadmin4.com/Admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1505831517',
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:31:58+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/dashboard?addtabs=1
+[ info ] www.fastadmin4.com/admin/dashboard?addtabs=1 [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：942.27kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.fastadmin4.com/admin/dashboard?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'todayunsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fastadmin;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-09-19T22:31:58+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/fastadmin.min.css.map
+[ info ] www.fastadmin4.com/assets/css/fastadmin.min.css.map [运行时间：0.006000s][吞吐率：166.67req/s] [内存消耗：287.63kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:31:58+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/skins/skin-green.css.map
+[ info ] www.fastadmin4.com/assets/css/skins/skin-green.css.map [运行时间：0.007000s][吞吐率：142.86req/s] [内存消耗：287.56kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:31:58+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/bootstrap.min.css.map
+[ info ] www.fastadmin4.com/assets/css/bootstrap.min.css.map [运行时间：0.007000s][吞吐率：142.86req/s] [内存消耗：287.63kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:31:58+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/backend.css.map
+[ info ] www.fastadmin4.com/assets/css/backend.css.map [运行时间：0.013001s][吞吐率：76.92req/s] [内存消耗：287.59kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:31:58+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=dashboard&v=1505831518
+[ info ] www.fastadmin4.com/admin/ajax/lang?callback=define&controllername=dashboard&v=1505831518 [运行时间：0.013001s][吞吐率：76.92req/s] [内存消耗：497.38kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.fastadmin4.com/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1505831518',
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\application\admin\controller\Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:32:06+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/product/product?addtabs=1
+[ info ] www.fastadmin4.com/admin/product/product?addtabs=1 [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：863.08kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product.product',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.fastadmin4.com/admin/product/product?ref=addtabs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin/lang/zh-cn/product/product.php
+[ info ] [ RUN ] app\admin\controller\product\Product->index[ D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\application\admin\controller\product\Product.php ]
+[ info ] [ VIEW ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\view\product\product\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'statusList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=fastadmin;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = '/admin/product/product' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-09-19T22:32:06+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/backend.css.map
+[ info ] www.fastadmin4.com/assets/css/backend.css.map [运行时间：0.012000s][吞吐率：83.33req/s] [内存消耗：287.59kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:32:06+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/skins/skin-green.css.map
+[ info ] www.fastadmin4.com/assets/css/skins/skin-green.css.map [运行时间：0.010001s][吞吐率：99.99req/s] [内存消耗：287.56kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002001s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:32:06+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/bootstrap.min.css.map
+[ info ] www.fastadmin4.com/assets/css/bootstrap.min.css.map [运行时间：0.014001s][吞吐率：71.42req/s] [内存消耗：287.63kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002001s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:32:06+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/fastadmin.min.css.map
+[ info ] www.fastadmin4.com/assets/css/fastadmin.min.css.map [运行时间：0.013001s][吞吐率：76.92req/s] [内存消耗：287.63kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003001s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:32:06+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=product.product&v=1505831526
+[ info ] www.fastadmin4.com/admin/ajax/lang?callback=define&controllername=product.product&v=1505831526 [运行时间：0.012001s][吞吐率：83.33req/s] [内存消耗：500.12kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001001s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.fastadmin4.com/admin/product/product?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'product.product',
+  'v' => '1505831526',
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin/lang/zh-cn/product/product.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:32:06+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/product/product/index?sort=weigh&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1505831526615
+[ info ] www.fastadmin4.com/admin/product/product/index?sort=weigh&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1505831526615 [运行时间：0.029001s][吞吐率：34.48req/s] [内存消耗：843.61kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product.product',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://www.fastadmin4.com/admin/product/product?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1505831526615',
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin/lang/zh-cn/product/product.php
+[ info ] [ RUN ] app\admin\controller\product\Product->index[ D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\application\admin\controller\product\Product.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=fastadmin;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_product` WHERE  `product_name` LIKE '%%' ORDER BY `weigh`  desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product` WHERE  `product_name` LIKE '%%' ORDER BY `weigh`  desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-09-19T22:32:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/product/product/add?dialog=1
+[ info ] www.fastadmin4.com/admin/product/product/add?dialog=1 [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：924.50kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product.product',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.fastadmin4.com/admin/product/product?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+  'dialog' => '1',
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin/lang/zh-cn/product/product.php
+[ info ] [ RUN ] app\common\controller\Backend->add[ D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\application\admin\library\traits\Backend.php ]
+[ info ] [ VIEW ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\view\product\product\add.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'statusList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=fastadmin;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-09-19T22:32:09+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/bootstrap.min.css.map
+[ info ] www.fastadmin4.com/assets/css/bootstrap.min.css.map [运行时间：0.007001s][吞吐率：142.83req/s] [内存消耗：287.63kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:32:09+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/backend.css.map
+[ info ] www.fastadmin4.com/assets/css/backend.css.map [运行时间：0.007001s][吞吐率：142.83req/s] [内存消耗：287.59kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:32:09+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/fastadmin.min.css.map
+[ info ] www.fastadmin4.com/assets/css/fastadmin.min.css.map [运行时间：0.014001s][吞吐率：71.42req/s] [内存消耗：377.38kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:32:09+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/skins/skin-green.css.map
+[ info ] www.fastadmin4.com/assets/css/skins/skin-green.css.map [运行时间：0.008001s][吞吐率：124.98req/s] [内存消耗：287.56kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:32:09+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/product/Attr/getAttrsByCid/intCid/7
+[ info ] www.fastadmin4.com/admin/product/Attr/getAttrsByCid/intCid/7 [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：892.66kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product.Attr',
+    2 => 'getAttrsByCid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'referer' => 'http://www.fastadmin4.com/admin/product/product/add?dialog=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+  'intCid' => '7',
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin/lang/zh-cn/product/attr.php
+[ info ] [ RUN ] app\admin\controller\product\Attr->getAttrsByCid[ D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\application\admin\controller\product\Attr.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:dbname=fastadmin;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_category` ORDER BY weigh desc,id desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_attr` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_attr` WHERE  `category_id` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_attr` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_attr` WHERE  `pid` = 6 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-09-19T22:32:09+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=product.product&v=1505831528
+[ info ] www.fastadmin4.com/admin/ajax/lang?callback=define&controllername=product.product&v=1505831528 [运行时间：0.014001s][吞吐率：71.42req/s] [内存消耗：500.12kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.fastadmin4.com/admin/product/product/add?dialog=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'product.product',
+  'v' => '1505831528',
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin/lang/zh-cn/product/product.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:32:09+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/product/category/index?field=name&order_by%5B0%5D%5B%5D=name&order_by%5B0%5D%5B%5D=ASC&pkey_name=id&pkey_value=7
+[ info ] www.fastadmin4.com/admin/product/category/index?field=name&order_by%5B0%5D%5B%5D=name&order_by%5B0%5D%5B%5D=ASC&pkey_name=id&pkey_value=7 [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：856.79kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product.category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'referer' => 'http://www.fastadmin4.com/admin/product/product/add?dialog=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+  'field' => 'name',
+  'order_by' => 
+  array (
+    0 => 
+    array (
+      0 => 'name',
+      1 => 'ASC',
+    ),
+  ),
+  'pkey_name' => 'id',
+  'pkey_value' => '7',
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin/lang/zh-cn/product/category.php
+[ info ] [ RUN ] app\admin\controller\product\Category->index[ D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\application\admin\controller\product\Category.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fastadmin;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_category` ORDER BY weigh desc,id desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-09-19T22:32:12+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/product/category/index?q_word%5B%5D=&page=1&per_page=10&and_or=AND&order_by%5B0%5D%5B%5D=name&order_by%5B0%5D%5B%5D=ASC&field=name&pkey_name=id&search_field%5B%5D=name&name=
+[ info ] www.fastadmin4.com/admin/product/category/index?q_word%5B%5D=&page=1&per_page=10&and_or=AND&order_by%5B0%5D%5B%5D=name&order_by%5B0%5D%5B%5D=ASC&field=name&pkey_name=id&search_field%5B%5D=name&name= [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：854.99kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product.category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'referer' => 'http://www.fastadmin4.com/admin/product/product/add?dialog=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+  'q_word' => 
+  array (
+    0 => '',
+  ),
+  'page' => '1',
+  'per_page' => '10',
+  'and_or' => 'AND',
+  'order_by' => 
+  array (
+    0 => 
+    array (
+      0 => 'name',
+      1 => 'ASC',
+    ),
+  ),
+  'field' => 'name',
+  'pkey_name' => 'id',
+  'search_field' => 
+  array (
+    0 => 'name',
+  ),
+  'name' => '',
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin/lang/zh-cn/product/category.php
+[ info ] [ RUN ] app\admin\controller\product\Category->index[ D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\application\admin\controller\product\Category.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:dbname=fastadmin;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_category` ORDER BY weigh desc,id desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-09-19T22:32:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/product/category/index?q_word%5B%5D=&page=1&per_page=10&and_or=AND&order_by%5B0%5D%5B%5D=name&order_by%5B0%5D%5B%5D=ASC&field=name&pkey_name=id&search_field%5B%5D=name&name=
+[ info ] www.fastadmin4.com/admin/product/category/index?q_word%5B%5D=&page=1&per_page=10&and_or=AND&order_by%5B0%5D%5B%5D=name&order_by%5B0%5D%5B%5D=ASC&field=name&pkey_name=id&search_field%5B%5D=name&name= [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：854.99kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product.category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'referer' => 'http://www.fastadmin4.com/admin/product/product/add?dialog=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+  'q_word' => 
+  array (
+    0 => '',
+  ),
+  'page' => '1',
+  'per_page' => '10',
+  'and_or' => 'AND',
+  'order_by' => 
+  array (
+    0 => 
+    array (
+      0 => 'name',
+      1 => 'ASC',
+    ),
+  ),
+  'field' => 'name',
+  'pkey_name' => 'id',
+  'search_field' => 
+  array (
+    0 => 'name',
+  ),
+  'name' => '',
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin/lang/zh-cn/product/category.php
+[ info ] [ RUN ] app\admin\controller\product\Category->index[ D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\application\admin\controller\product\Category.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fastadmin;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_category` ORDER BY weigh desc,id desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-09-19T22:32:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/product/category/index?q_word%5B%5D=&page=1&per_page=10&and_or=AND&order_by%5B0%5D%5B%5D=name&order_by%5B0%5D%5B%5D=ASC&field=name&pkey_name=id&search_field%5B%5D=name&name=
+[ info ] www.fastadmin4.com/admin/product/category/index?q_word%5B%5D=&page=1&per_page=10&and_or=AND&order_by%5B0%5D%5B%5D=name&order_by%5B0%5D%5B%5D=ASC&field=name&pkey_name=id&search_field%5B%5D=name&name= [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：854.99kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product.category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'referer' => 'http://www.fastadmin4.com/admin/product/product/add?dialog=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+  'q_word' => 
+  array (
+    0 => '',
+  ),
+  'page' => '1',
+  'per_page' => '10',
+  'and_or' => 'AND',
+  'order_by' => 
+  array (
+    0 => 
+    array (
+      0 => 'name',
+      1 => 'ASC',
+    ),
+  ),
+  'field' => 'name',
+  'pkey_name' => 'id',
+  'search_field' => 
+  array (
+    0 => 'name',
+  ),
+  'name' => '',
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin/lang/zh-cn/product/category.php
+[ info ] [ RUN ] app\admin\controller\product\Category->index[ D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\application\admin\controller\product\Category.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=fastadmin;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_category` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_category` ORDER BY weigh desc,id desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-09-19T22:32:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/product/category/index?q_word%5B%5D=&page=1&per_page=10&and_or=AND&order_by%5B0%5D%5B%5D=name&order_by%5B0%5D%5B%5D=ASC&field=name&pkey_name=id&search_field%5B%5D=name&name=
+[ info ] www.fastadmin4.com/admin/product/category/index?q_word%5B%5D=&page=1&per_page=10&and_or=AND&order_by%5B0%5D%5B%5D=name&order_by%5B0%5D%5B%5D=ASC&field=name&pkey_name=id&search_field%5B%5D=name&name= [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：854.99kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'product.category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'referer' => 'http://www.fastadmin4.com/admin/product/product/add?dialog=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+  'q_word' => 
+  array (
+    0 => '',
+  ),
+  'page' => '1',
+  'per_page' => '10',
+  'and_or' => 'AND',
+  'order_by' => 
+  array (
+    0 => 
+    array (
+      0 => 'name',
+      1 => 'ASC',
+    ),
+  ),
+  'field' => 'name',
+  'pkey_name' => 'id',
+  'search_field' => 
+  array (
+    0 => 'name',
+  ),
+  'name' => '',
+)
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\public/../application/admin/lang/zh-cn/product/category.php
+[ info ] [ RUN ] app\admin\controller\product\Category->index[ D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\application\admin\controller\product\Category.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=fastadmin;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_product_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_product_category` ORDER BY weigh desc,id desc [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-09-19T22:32:42+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/bootstrap.min.css.map
+[ info ] www.fastadmin4.com/assets/css/bootstrap.min.css.map [运行时间：0.006000s][吞吐率：166.67req/s] [内存消耗：287.63kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:32:42+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/bootstrap.min.css.map
+[ info ] www.fastadmin4.com/assets/css/bootstrap.min.css.map [运行时间：0.005000s][吞吐率：200.00req/s] [内存消耗：287.63kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:32:42+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/bootstrap.min.css.map
+[ info ] www.fastadmin4.com/assets/css/bootstrap.min.css.map [运行时间：0.006000s][吞吐率：166.67req/s] [内存消耗：287.63kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:32:42+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/bootstrap.min.css.map
+[ info ] www.fastadmin4.com/assets/css/bootstrap.min.css.map [运行时间：0.007000s][吞吐率：142.86req/s] [内存消耗：287.63kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:32:42+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/bootstrap.min.css.map
+[ info ] www.fastadmin4.com/assets/css/bootstrap.min.css.map [运行时间：0.005001s][吞吐率：199.96req/s] [内存消耗：287.63kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:32:42+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/bootstrap.min.css.map
+[ info ] www.fastadmin4.com/assets/css/bootstrap.min.css.map [运行时间：0.006000s][吞吐率：166.67req/s] [内存消耗：287.63kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:32:43+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/bootstrap.min.css.map
+[ info ] www.fastadmin4.com/assets/css/bootstrap.min.css.map [运行时间：0.006000s][吞吐率：166.67req/s] [内存消耗：287.63kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:32:43+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/bootstrap.min.css.map
+[ info ] www.fastadmin4.com/assets/css/bootstrap.min.css.map [运行时间：0.006000s][吞吐率：166.67req/s] [内存消耗：287.63kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T22:32:43+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/bootstrap.min.css.map
+[ info ] www.fastadmin4.com/assets/css/bootstrap.min.css.map [运行时间：0.006000s][吞吐率：166.67req/s] [内存消耗：287.63kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
