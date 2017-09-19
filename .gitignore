@@ -1,2 +1,3 @@
-# Build and Release Folders
+# 忽略目录
 .idea/
+runtime/

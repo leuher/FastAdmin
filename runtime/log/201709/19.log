@@ -9494,3 +9494,115 @@ NIT File
 [ info ] [ PARAM ] array (
 )
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T23:12:52+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/skins/skin-green.css.map
+[ info ] www.fastadmin4.com/assets/css/skins/skin-green.css.map [运行时间：0.010000s][吞吐率：100.00req/s] [内存消耗：287.56kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T23:12:52+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/backend.css.map
+[ info ] www.fastadmin4.com/assets/css/backend.css.map [运行时间：0.013001s][吞吐率：76.92req/s] [内存消耗：287.59kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T23:12:52+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/bootstrap.min.css.map
+[ info ] www.fastadmin4.com/assets/css/bootstrap.min.css.map [运行时间：0.013000s][吞吐率：76.92req/s] [内存消耗：287.63kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-19T23:12:52+08:00 ] 127.0.0.1 127.0.0.1 GET /assets/css/fastadmin.min.css.map
+[ info ] www.fastadmin4.com/assets/css/fastadmin.min.css.map [运行时间：0.012000s][吞吐率：83.33req/s] [内存消耗：287.63kb] [文件加载：50]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\PhpWamp\PHPWAMP_8.8.8.8IN\wwwroot\FastAdmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.fastadmin4.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.6',
+  'cookie' => 'PHPSESSID=j0tnvafrlr1de4i2oq2jj0hc12; keeplogin=1%7C86400%7C1505917917%7Cf5ff1d86e6954a7deb8e157aae5327d4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
